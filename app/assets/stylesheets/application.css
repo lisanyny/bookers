@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.title{
+  font-size:26px;
+  margin:33px;
+}
+
+.text{
+  font-size:13px;
+  margin:33px;
+}
+
+.link{
+  font-size:13px;
+  margin:33px;
+  color: #666666;
+}

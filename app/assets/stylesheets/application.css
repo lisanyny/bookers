@@ -20,6 +20,16 @@
   box-sizing: border-box;
 }
 
+table{
+  table-layout: fixed;
+  width: 100%;
+  display: table;
+}
+
+body{
+  margin:33px;
+}
+
 .title{
   font-size:26px;
   margin:33px;

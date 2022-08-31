@@ -20,28 +20,132 @@
   box-sizing: border-box;
 }
 
-table{
-  table-layout: fixed;
-  width: 100%;
-  display: table;
+all{
+  font-family: verdana, arial, helvetica, sans-serif;
 }
 
 body{
   margin:33px;
 }
 
-.title{
+.top-title{
   font-size:26px;
-  margin:33px;
+  margin:17px 0;
 }
 
-.text{
+.top-text{
   font-size:13px;
   margin:33px;
 }
 
-.link{
+.top-link{
   font-size:13px;
   margin:33px;
   color: #666666;
+}
+
+label{
+  font-size: 13px;
+  display: block;
+}
+
+h2{
+  margin:16px 0;
+  font-size: 18px;
+}
+
+textarea{
+  margin-bottom:10px;
+}
+
+.field{
+  margin-bottom:10px;
+}
+
+table{
+  margin:30px;
+}
+
+.link:link{
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 1px black;
+}
+
+.link:visited{
+  text-decoration: none;
+  color: gray;
+  border-bottom: solid 1px gray;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-bottom: solid 1px white;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 1px black;
+}
+
+a:visited{
+  text-decoration: none;
+  color: gray;
+  border-bottom: solid 1px gray;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-bottom: solid 1px white;
+}
+
+thead{
+  font-size: 13px;
+}
+
+.book-title{
+  width:190px;
+  padding: 1px 5px 7px 5px;
+  font-size: 13px;
+}
+
+.book-body{
+  width: 400px;
+  padding:1px 5px 7px 5px;
+  font-size: 13px;
+}
+
+.book-link{
+  padding:1px 5px 7px 5px;
+  font-size: 13px;
+}
+
+.show-text{
+  margin:33px;
+  font-size: 13px;
+}
+
+.show-link{
+  font-size: 13px;
+}
+
+.edit-title{
+  margin:15px 0 ;
+}
+
+.edit-field{
+  margin-bottom: 10px;
+}
+
+.edit-action{
+  margin-bottom: 10px;
+}
+
+.edit-link{
+  font-size: 13px;
 }

@@ -20,12 +20,9 @@
   box-sizing: border-box;
 }
 
-all{
-  font-family: verdana, arial, helvetica, sans-serif;
-}
-
 body{
   margin:33px;
+  font-family: verdana, arial, helvetica, sans-serif;
 }
 
 .top-title{
@@ -148,4 +145,10 @@ thead{
 
 .edit-link{
   font-size: 13px;
+}
+
+.flash-view{
+  font-size: 13px;
+  color:green;
+  margin:33px;
 }

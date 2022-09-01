@@ -2,7 +2,7 @@
 <% if @book.errors.any? %>
  <%= @book.errors.count %> error prohibited this book from being saved
  <ul>
-   <% @book.errore.full_message.each do |message| %>
+   <% @book.errors.full_messages.each do |message| %>
     <li><%= message %></li>
    <% end %>
  </ul>
@@ -32,4 +32,3 @@
    |
   <a href="/books">Back</a>
 </div>
-
